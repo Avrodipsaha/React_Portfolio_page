@@ -1,7 +1,9 @@
 import React from "react";
 import "./HeroImg.css";
 import { Link } from "react-router-dom";
-import IntroImg from "../assets/introImg.jpg";
+
+const IntroImg =
+  "https://ik.imagekit.io/wq9821dmd/introImg_5ILemJ4A8.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655796348034";
 
 const HeroImg = () => {
   return (

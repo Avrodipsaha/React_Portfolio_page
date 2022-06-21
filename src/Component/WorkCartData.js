@@ -1,25 +1,50 @@
-import pro1 from "../assets/pro1.jpg";
+const Portfolio =
+  "https://ik.imagekit.io/wq9821dmd/HtmlPortfolio_c7TslXAlLB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655794261977";
+const snake =
+  "https://ik.imagekit.io/wq9821dmd/SnakeGame_c36a0iZXX.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655794278251";
+const weather =
+  "https://ik.imagekit.io/wq9821dmd/WeatherApp_SKNKupGeu.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655794292788";
+
 const WorkCartData = [
   {
-    imgsrc: pro1,
-    title: "Portfolio WebSite Design",
-    text: "This project is created using react js ",
+    imgsrc: Portfolio,
+    title: "Portfolio WebSite",
+    text: (
+      <>
+        Created a portfolio website about myself. Features: It is a single-page
+        application. And hover animation is added, Home page, About and Contact
+        page is added. Tech stack: HTML, CSS, JavaScript .
+      </>
+    ),
     view: "https://avrodipsaha.netlify.app/",
     source:
       "https://github.com/Avrodipsaha/HTML---CSS-Mini-Project---HTML---CSS-Mini-Project---n5wwb0zlj2ae",
   },
   {
-    imgsrc: pro1,
+    imgsrc: snake,
     title: "Foodie Snake game",
-    text: "This game is created for the entertainment purpose teck-stacks are used javaScript",
+    text: (
+      <>
+        This project aims to bring the fun and simplicity of the Snake game with
+        some new features. It has the highest-Score tab which will attach
+        players for playing more. Tech Stack : HTML , CSS and JavaScript.
+      </>
+    ),
     view: "https://neon-fairy-c0b337.netlify.app/",
     source:
       "https://github.com/Avrodipsaha/JS-Mini-Project---1---JavaScript-Mini-Project---04ya8perwk40",
   },
   {
-    imgsrc: pro1,
+    imgsrc: weather,
     title: "Live Wheather report ",
-    text: "This is helping user to find the live weather report of any city .This project is created using react js ",
+    text: (
+      <>
+        Crated a live weather information App. Features: Users can search by
+        city name. The App will provide the city's current temperature,
+        humidity, pressure, air speed, and sunset time. And Weather icons are
+        changed according to the weather mode. Tech Stack:- React js.
+      </>
+    ),
     view: "https://live-weather-reports.netlify.app/",
     source: "https://github.com/Avrodipsaha/Live-weather-Report",
   },
