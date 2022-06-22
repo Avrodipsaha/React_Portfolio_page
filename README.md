@@ -8,8 +8,7 @@ Below add some images about the project.
 
 
 
- ![Screenshot from 2022-06-23 00-19-10](https://user-images.githubusercontent.com/95330949/175120537-b57b4738-8287-4ad4-a2be-13ceee[Uploading Screenshot from 2022-06-23 00-21-20.png-29:-62:47:84…]()
-870e94.png)
+![Screenshot from 2022-06-23 00-19-10](https://user-images.githubusercontent.com/95330949/175120890-a0daba63-36d3-417e-9f7b-dbad2097a1b0.png)
 
 
 
