@@ -12,6 +12,7 @@ Below add some images about the project.
 
 
 
+***Mobile view**
 
 
 ![Screenshot from 2022-06-23 00-21-20](https://user-images.githubusercontent.com/95330949/175120695-5386bca7-edc6-4b7a-8f14-5bcfeb9fc67d.png)
