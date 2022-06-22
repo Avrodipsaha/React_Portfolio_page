@@ -5,7 +5,23 @@ const snake =
 const weather =
   "https://ik.imagekit.io/wq9821dmd/WeatherApp_SKNKupGeu.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655794292788";
 
+const React_Portfolio =
+  "https://ik.imagekit.io/wq9821dmd/Screenshot_from_2022-06-23_00-18-41_2KXpZtMJO.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655926594370";
 const WorkCartData = [
+  {
+    imgsrc: React_Portfolio,
+    title: " Responsive Portfolio App",
+    text: (
+      <>
+        Created a portfolio website about myself. Features: It is a single-page
+        application with a good user interface. And also mobile-friendly. Its
+        have four-section- Home, Project, About, and Contact. Tech stack: React
+        js, CSS, JavaScript.
+      </>
+    ),
+    view: "https://soft-paprenjak-2e3adb.netlify.app/",
+    source: "https://github.com/Avrodipsaha/React_Portfolio_page",
+  },
   {
     imgsrc: Portfolio,
     title: "Portfolio Website",
