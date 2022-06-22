@@ -8,7 +8,7 @@ const weather =
 const WorkCartData = [
   {
     imgsrc: Portfolio,
-    title: "Portfolio WebSite",
+    title: "Portfolio Website",
     text: (
       <>
         Created a portfolio website about myself. Features: It is a single-page
@@ -22,7 +22,7 @@ const WorkCartData = [
   },
   {
     imgsrc: snake,
-    title: "Foodie Snake game",
+    title: "Foodie Snake Game",
     text: (
       <>
         This project aims to bring the fun and simplicity of the Snake game with
@@ -36,7 +36,7 @@ const WorkCartData = [
   },
   {
     imgsrc: weather,
-    title: "Live Wheather report ",
+    title: "Live Wheather Report ",
     text: (
       <>
         Crated a live weather information App. Features: Users can search by

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import {
-  FaFacebook,
+  FaGithub,
   FaHome,
   FaLinkedin,
   FaMailBulk,
@@ -42,24 +42,55 @@ const Footer = () => {
           </div>
         </div>
         <div className="right">
-          <h4> About the Teck-stack</h4>
+          <h4> About Myself </h4>
           <p>
-            This is me Avrodip Saha. Now learning Full Stack Web Development. I
-            enjoy design websites.
+            I worked on various types of projects, where I used deffernts types
+            Teck-Stacks. I work on React js, JavaScript, HTML , CSS , Material
+            UI , Tailwind CSS , Node js , Firebase ,MongoDB, Express js.
           </p>
           <div className="social">
-            <FaFacebook
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaTwitter
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            <a
+              href="https://github.com/Avrodipsaha"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub
+                size={30}
+                style={{
+                  color: "#fff",
+                  marginRight: "1rem",
+                  cursor: "pointer",
+                }}
+              />
+            </a>
+            <a
+              href="https://twitter.com/MrAvrodip"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTwitter
+                size={30}
+                style={{
+                  color: "#fff",
+                  marginRight: "1rem",
+                  cursor: "pointer",
+                }}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/avrodip-saha7411/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin
+                size={30}
+                style={{
+                  color: "#fff",
+                  marginRight: "1rem",
+                  cursor: "pointer",
+                }}
+              />
+            </a>
           </div>
         </div>
       </div>

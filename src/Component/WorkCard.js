@@ -1,6 +1,6 @@
 import React from "react";
 import "./WorkCard.css";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 const WorkCard = (props) => {
   return (
@@ -11,16 +11,13 @@ const WorkCard = (props) => {
         <p> {props.text}</p>
         <div className="pro_btns">
           {/* <NavLink to={props.view} className="btn"> */}
-          <NavLink
-            to={{ pathname: `${props.view}` }}
-            target="_blank"
-            className="btn"
-          >
-            view
-          </NavLink>
-          <NavLink to={props.source} className="btn">
-            source
-          </NavLink>
+          <a href={props.view} target="_blank" rel="noreferrer">
+            <button className="btn">view</button>
+          </a>
+
+          <a href={props.source} rel="noreferrer">
+            <button className="btn">source</button>
+          </a>
         </div>
       </div>
     </div>

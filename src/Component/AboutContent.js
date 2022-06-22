@@ -4,9 +4,9 @@ import "./AboutContent.css";
 import React from "react";
 import { Link } from "react-router-dom";
 const Contect1 =
-  "https://ik.imagekit.io/wq9821dmd/pro1_ktosmZL4Q.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655796491758";
+  "https://ik.imagekit.io/wq9821dmd/About2_pt2aP2_3M.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655921652973";
 const Contect2 =
-  "https://ik.imagekit.io/wq9821dmd/aboutcontent_n0EEItnFz.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655796396857";
+  "https://ik.imagekit.io/wq9821dmd/About4_FTi0Y5btP.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655921880339";
 const AboutContent = () => {
   return (
     <div className="about">
