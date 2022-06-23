@@ -4,7 +4,11 @@ import "./Form.css";
 const Form = () => {
   return (
     <div className="form">
-      <form>
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+        }}
+      >
         <label>Your Name</label>
         <input type="text" />
 
