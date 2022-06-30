@@ -19,7 +19,7 @@ const WorkCartData = [
         js, CSS, JavaScript.
       </>
     ),
-    view: "https://soft-paprenjak-2e3adb.netlify.app/",
+    view: "https://avrodip-portfolio.netlify.app/",
     source: "https://github.com/Avrodipsaha/React_Portfolio_page",
   },
   {
