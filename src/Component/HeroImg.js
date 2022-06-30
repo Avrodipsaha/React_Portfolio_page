@@ -12,7 +12,7 @@ const HeroImg = () => {
         <img className="into_img" src={IntroImg} alt="IntroImg" />
       </div>
       <div className="content">
-        <p>HI, I'M AVRODIP</p>
+        <p>HI, I'M AVRODIP SAHA</p>
         <h1>WEB DEVELOPER</h1>
 
         <Link to="/project" className="btn">
